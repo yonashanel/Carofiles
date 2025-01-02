@@ -32,6 +32,18 @@ namespace CourseAdminSystem.API.Controllers
             return Ok(Repository.GetWorkouts());
         }
 
+        [HttpGet("instructor/{instructor_id}")]
+        public ActionResult<IEnumerable<Workout>> MyWorkouts([FromRoute] int instructor_id)
+        {
+            var workouts = Repository.MyWorkouts(instructor_id);
+            if (workouts == null || !workouts.Any())
+            {
+                return NotFound($"No workouts found for instructor with id {instructor_id}");
+            }
+
+            return Ok(workouts);
+        }
+
         [HttpPost]
         public ActionResult Post([FromBody] Workout workout) {
             if (workout == null)

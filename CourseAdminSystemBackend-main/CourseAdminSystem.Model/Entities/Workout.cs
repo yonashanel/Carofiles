@@ -17,6 +17,8 @@ public class Workout {
 
    public int Duration { get; set; }
 
+   public string Description { get; set; }
+
    public int Capacity { get; set; }
 
    public Instructor Instructor { get; set; }

@@ -37,6 +37,7 @@ public class WorkoutRepository : BaseRepository
                {               
                   Workout_name = data["workout_name"].ToString(),
                   Instructor_id = (int)data["instructor_id"],
+                  Description = data["description"].ToString(),
                   Duration = (int)data["duration"],
                   Capacity = (int)data["capacity"],
                };
@@ -74,11 +75,55 @@ public class WorkoutRepository : BaseRepository
                {               
                   Workout_name = data["workout_name"].ToString(),
                   Instructor_id = (int)data["instructor_id"],
+                  Description = data["description"].ToString(),
                   Duration = (int)data["duration"],
                   Capacity = (int)data["capacity"],
                };
 
                workouts.Add(s);
+            }
+         }
+
+         return workouts;
+      }
+      finally
+      {
+         dbConn?.Close();
+      }
+   }
+
+   public List<Workout> MyWorkouts(int instructor_id)
+   {
+      NpgsqlConnection dbConn = null;
+      var workouts = new List<Workout>();
+      try
+      {
+         // Create a new connection for the database
+         dbConn = new NpgsqlConnection(ConnectionString);
+
+         // Creating an SQL command to fetch workouts by instructor_id
+         var cmd = dbConn.CreateCommand();
+         cmd.CommandText = "select * from workout where instructor_id = @instructor_id";
+
+         cmd.Parameters.Add("@instructor_id", NpgsqlDbType.Integer).Value = instructor_id;
+
+         // Call the base method to get data
+         var data = GetData(dbConn, cmd);
+
+         if (data != null)
+         {
+            while (data.Read()) // Every time loop runs, it reads the next row
+            {
+               Workout w = new Workout(Convert.ToInt32(data["workout_id"]))
+               {
+                  Workout_name = data["workout_name"].ToString(),
+                  Instructor_id = (int)data["instructor_id"],
+                  Description = data["description"].ToString(),
+                  Duration = (int)data["duration"],
+                  Capacity = (int)data["capacity"],
+               };
+
+               workouts.Add(w);
             }
          }
 
@@ -100,14 +145,15 @@ public class WorkoutRepository : BaseRepository
          var cmd = dbConn.CreateCommand();
          cmd.CommandText = @"
 insert into workout
-(workout_name, instructor_id, duration, capacity)
+(workout_name, instructor_id, description, duration, capacity)
 values
-(@workout_name, @instructor_id, @duration, @capacity)
+(@workout_name, @instructor_id, @description, @duration, @capacity)
 ";
 
          //adding parameters in a better way       
          cmd.Parameters.AddWithValue("@workout_name", NpgsqlDbType.Text, s.Workout_name);
          cmd.Parameters.AddWithValue("@instructor_id", NpgsqlDbType.Integer, s.Instructor_id);
+         cmd.Parameters.AddWithValue("@description", NpgsqlDbType.Text, s.Description);
          cmd.Parameters.AddWithValue("@duration", NpgsqlDbType.Integer, s.Duration);
          cmd.Parameters.AddWithValue("@capacity", NpgsqlDbType.Integer, s.Capacity);
 
@@ -130,6 +176,7 @@ values
 update workout set
     workout_name=@workout_name,
     instructor_id=@instructor_id,
+    description=@description,
     duration=@duration,
     capacity=@capacity
 where
@@ -137,6 +184,7 @@ where
 
       cmd.Parameters.AddWithValue("@workout_name", NpgsqlDbType.Text, s.Workout_name);
       cmd.Parameters.AddWithValue("@instructor_id", NpgsqlDbType.Integer, s.Instructor_id);
+      cmd.Parameters.AddWithValue("@description", NpgsqlDbType.Text, s.Description);
       cmd.Parameters.AddWithValue("@duration", NpgsqlDbType.Integer, s.Duration);
       cmd.Parameters.AddWithValue("@capacity", NpgsqlDbType.Integer, s.Capacity);
       cmd.Parameters.AddWithValue("@workout_id", NpgsqlDbType.Integer, s.Workout_id);

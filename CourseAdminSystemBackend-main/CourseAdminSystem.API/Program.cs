@@ -12,7 +12,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Add our services
-builder.Services.AddScoped<StudentRepository, StudentRepository>();
 builder.Services.AddScoped<MemberRepository, MemberRepository>();
 builder.Services.AddScoped<InstructorRepository, InstructorRepository>();
 builder.Services.AddScoped<BookingRepository, BookingRepository>();
