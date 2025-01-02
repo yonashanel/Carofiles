@@ -1,0 +1,106 @@
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\appsettings.json
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.exe
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.deps.json
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.runtimeconfig.json
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.dll
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.pdb
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\Npgsql.dll
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.Model.dll
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.Model.pdb
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.csproj.AssemblyReference.cache
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.AssemblyInfoInputs.cache
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.AssemblyInfo.cs
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.csproj.CoreCompileInputs.cache
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.CourseAdminSystem.API.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CourseAdminSystem.API.props
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CourseAdminSystem.API.props
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CourseAdminSystem.API.props
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\scopedcss\bundle\CourseAdminSystem.API.styles.css
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAd.CB9971C4.Up2Date
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.dll
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\refint\CourseAdminSystem.API.dll
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.pdb
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.genruntimeconfig.cache
+c:\Users\wwwkr\fullstack\gym\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\ref\CourseAdminSystem.API.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\appsettings.json
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.exe
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.deps.json
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.runtimeconfig.json
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.pdb
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\Npgsql.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.Model.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.Model.pdb
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.csproj.AssemblyReference.cache
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.AssemblyInfoInputs.cache
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.AssemblyInfo.cs
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.csproj.CoreCompileInputs.cache
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.CourseAdminSystem.API.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CourseAdminSystem.API.props
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CourseAdminSystem.API.props
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CourseAdminSystem.API.props
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\scopedcss\bundle\CourseAdminSystem.API.styles.css
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAd.CB9971C4.Up2Date
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\refint\CourseAdminSystem.API.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.pdb
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.genruntimeconfig.cache
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\ref\CourseAdminSystem.API.dll
+c:\Users\wwwkr\fullstack\orange\CourseAdminSystemBackend\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.sourcelink.json
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\appsettings.json
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.exe
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.deps.json
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.runtimeconfig.json
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.dll
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.API.pdb
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\Npgsql.dll
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.Model.dll
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\bin\Debug\net8.0\CourseAdminSystem.Model.pdb
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.csproj.AssemblyReference.cache
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.AssemblyInfoInputs.cache
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.AssemblyInfo.cs
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.csproj.CoreCompileInputs.cache
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.CourseAdminSystem.API.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CourseAdminSystem.API.props
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CourseAdminSystem.API.props
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CourseAdminSystem.API.props
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\scopedcss\bundle\CourseAdminSystem.API.styles.css
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAd.CB9971C4.Up2Date
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.dll
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\refint\CourseAdminSystem.API.dll
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.pdb
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\CourseAdminSystem.API.genruntimeconfig.cache
+c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.API\obj\Debug\net8.0\ref\CourseAdminSystem.API.dll

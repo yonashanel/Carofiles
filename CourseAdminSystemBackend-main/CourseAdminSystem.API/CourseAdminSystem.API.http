@@ -1,0 +1,6 @@
+@CourseAdminSystem.API_HostAddress = http://localhost:5016
+
+GET {{CourseAdminSystem.API_HostAddress}}/students/
+Accept: application/json
+
+###

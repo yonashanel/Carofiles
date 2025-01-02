@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseAdminSystem.API", "CourseAdminSystem.API\CourseAdminSystem.API.csproj", "{F4141279-8395-4255-9AD1-E5A904AFE187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseAdminSystem.Model", "CourseAdminSystem.Model\CourseAdminSystem.Model.csproj", "{DDC8F715-4F5A-4420-8A8C-C2C9B1AC2428}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4141279-8395-4255-9AD1-E5A904AFE187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4141279-8395-4255-9AD1-E5A904AFE187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4141279-8395-4255-9AD1-E5A904AFE187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4141279-8395-4255-9AD1-E5A904AFE187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC8F715-4F5A-4420-8A8C-C2C9B1AC2428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC8F715-4F5A-4420-8A8C-C2C9B1AC2428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC8F715-4F5A-4420-8A8C-C2C9B1AC2428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC8F715-4F5A-4420-8A8C-C2C9B1AC2428}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
