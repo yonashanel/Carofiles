@@ -1,0 +1,78 @@
+-- Create Member Table 
+CREATE TABLE Member ( 
+    member_id SERIAL PRIMARY KEY, 
+    name VARCHAR(100) NOT NULL, 
+    email VARCHAR(100) NOT NULL UNIQUE, 
+    password_hash VARCHAR(255) NOT NULL 
+); 
+
+-- Create Instructor Table 
+CREATE TABLE Instructor ( 
+    instructor_id SERIAL PRIMARY KEY, 
+    name VARCHAR(100) NOT NULL, 
+    email VARCHAR(100) NOT NULL UNIQUE, 
+    password_hash VARCHAR(255) NOT NULL 
+); 
+
+-- Create Workout Table 
+CREATE TABLE Workout ( 
+    workout_id SERIAL PRIMARY KEY, 
+    workout_name VARCHAR(100) NOT NULL, 
+    instructor_id INT NOT NULL,
+    description VARCHAR(100) NOT NULL,
+    duration INT NOT NULL, 
+    capacity INT NOT NULL, 
+    FOREIGN KEY (instructor_id) REFERENCES Instructor(instructor_id) 
+); 
+
+-- Create Booking Table 
+CREATE TABLE Booking ( 
+    booking_id SERIAL PRIMARY KEY, 
+    member_id INT NOT NULL, 
+    workout_id INT NOT NULL, 
+    booking_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP, 
+    FOREIGN KEY (member_id) REFERENCES Member(member_id), 
+    FOREIGN KEY (workout_id) REFERENCES Workout(workout_id) 
+);
+
+-- Insert Sample Members
+INSERT INTO Member (name, email, password_hash) VALUES
+('John Doe', 'john.doe@example.com', 'hashed_password_1'),
+('Jane Smith', 'jane.smith@example.com', 'hashed_password_2'),
+('Alice Johnson', 'alice.johnson@example.com', 'hashed_password_3'),
+('Bob Brown', 'bob.brown@example.com', 'hashed_password_4');
+
+-- Insert Sample Instructors
+INSERT INTO Instructor (name, email, password_hash) VALUES
+('Emily Trainer', 'emily.trainer@example.com', 'hashed_password_5'),
+('Mike Coach', 'mike.coach@example.com', 'hashed_password_6'),
+('Sophia Mentor', 'sophia.mentor@example.com', 'hashed_password_7');
+
+-- Insert Sample Workouts
+INSERT INTO Workout (workout_name, instructor_id, description, duration, capacity) VALUES
+('Cardio Blast', 1, 'High-intensity cardio workout.', 45, 20),
+('Strength Training', 2, 'Full-body strength training session.', 60, 15),
+('Yoga Flow', 3, 'Relaxing and stretching yoga class.', 75, 10),
+('HIIT Power', 1, 'High-Intensity Interval Training for fat burn.', 30, 25),
+('Pilates Core', 3, 'Pilates focusing on core strength.', 50, 12),
+('Spin Class', 2, 'Intense cycling session for endurance.', 40, 18),
+('Zumba Dance', 3, 'Fun and energetic dance workout.', 55, 20),
+('Bootcamp', 2, 'Outdoor bootcamp-style fitness session.', 60, 20),
+('Boxing Basics', 1, 'Learn the basics of boxing with a cardio twist.', 45, 15),
+('Functional Training', 1, 'Workout focusing on functional movements.', 60, 20);
+
+-- Insert Sample Bookings
+INSERT INTO Booking (member_id, workout_id, booking_date) VALUES
+(1, 1, '2025-01-01 09:00:00'),
+(2, 2, '2025-01-01 10:00:00'),
+(3, 3, '2025-01-02 11:00:00'),
+(4, 4, '2025-01-02 12:00:00'),
+(1, 5, '2025-01-03 08:30:00'),
+(2, 6, '2025-01-03 09:45:00'),
+(3, 7, '2025-01-04 10:15:00'),
+(4, 8, '2025-01-04 11:30:00'),
+(1, 9, '2025-01-05 14:00:00'),
+(2, 10, '2025-01-05 15:00:00');
+
+
+
