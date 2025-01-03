@@ -97,10 +97,7 @@
           "Npgsql": "8.0.4"
         },
         "runtime": {
-          "CourseAdminSystem.Model.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CourseAdminSystem.Model.dll": {}
         }
       }
     }

@@ -1,0 +1,41 @@
+<mat-toolbar color="primary" style="display: flex; justify-content: space-between; align-items: center;">
+  <!-- Menu Button with Dropdown -->
+  <button mat-icon-button class="example-icon" aria-label="Menu" [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/about">About</button>
+    <button mat-menu-item routerLink="/">Home</button>
+    <button mat-menu-item routerLink="/instructor">Instructors</button>
+    <button mat-menu-item routerLink="/add-instructor">Register Instructor</button>
+    <button mat-menu-item routerLink="/add-member">Add Member</button>
+    <button mat-menu-item routerLink="/member">Members</button>
+    <button mat-menu-item routerLink="/add-workout">Add Workout</button>
+    <button mat-menu-item routerLink="/workout">Workouts</button>
+    <button mat-menu-item routerLink="/my-workouts">MyWorkout</button>
+    <button mat-menu-item routerLink="/my-booking">MyBooking</button>
+    <button mat-menu-item routerLink="/booking">Booking</button>
+    <button mat-menu-item routerLink="/login1">Login</button>
+  </mat-menu>
+
+   <!-- Home Navigation -->
+   <button mat-icon-button class="example-icon" aria-label="Home" [routerLink]="'/'">
+    <mat-icon>home</mat-icon>
+    </button>
+
+  <!-- Centered Welcome Text -->
+  <span class="title" style="flex: 1; text-align: center;">Welcome to Orange Fitness</span>
+
+  
+  <!-- Login Buttons -->
+  <button mat-fab extended color="accent" [routerLink]="'/login'" style="margin-right: 8px;">
+    <mat-icon>person</mat-icon> Login 
+  </button> 
+
+   <!-- LogOut Buttons -->
+   <button mat-fab extended color="accent" [routerLink]="'/login'" style="margin-right: 8px;">Log Out
+  </button>
+</mat-toolbar> 
+
+<!-- Router Outlet for Dynamic Content -->
+<router-outlet></router-outlet>

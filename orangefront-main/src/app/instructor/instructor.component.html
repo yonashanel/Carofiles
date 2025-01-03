@@ -1,0 +1,21 @@
+<div>
+	<mat-card class="instructor-card">
+  <mat-card-header>
+    <div mat-card-avatar class="instructor-avatar"></div>
+    <mat-card-title>{{ instructor.name }}</mat-card-title>
+    <mat-card-subtitle>{{ instructor.email }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-actions>
+    <button mat-raised-button color="primary" [routerLink]="['/my-workouts', instructor.instructor_id]">
+      <mat-icon>fitness_center</mat-icon> Show His/Her Workouts
+    </button>
+    <button mat-raised-button color="warn" (click)="deleteInstructor()">
+      <mat-icon>delete</mat-icon> Delete
+    </button>
+    <button mat-raised-button color="accent" (click)="editInstructor(instructor.instructor_id)">
+      <mat-icon>edit</mat-icon> Edit
+    </button>
+
+  </mat-card-actions>
+	</mat-card>
+</div>

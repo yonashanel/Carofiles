@@ -1,0 +1,22 @@
+<p>edit-instructor {{instructor_id}} works!</p>
+@if (instructor) {
+<form #formEditInstructor="ngForm">
+<div>
+   instructor_id: <span>{{instructor.instructor_id}}</span>
+</div>
+<div>
+   Name: <input type="text" [(ngModel)]="instructor.name" name="name">
+</div>
+<div>
+   Email <input type="text" [(ngModel)]="instructor.email" name="email">
+</div>
+<div>
+   Password <input type="text" [(ngModel)]="instructor.password_hash" name="password_hash">
+</div>
+</form>
+@if (formEditInstructor.valid) {
+<button (click)="updateInstructor()">Update</button>
+}
+} @else {
+   Loading....
+}

@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #3f51b5;
+}
+
+.instructor-card {
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.example-card {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.instructor-avatar {
+  background-image: url('https://media.istockphoto.com/id/2005282047/vector/man-fitness-coach-cartoon-character-with-stopwatch-demonstrating-strong-arm-biceps-isolated.jpg?s=612x612&w=0&k=20&c=wF4rdSJ8kFonE5O5WYioFl71aMCjjOatne5aCrId7CU=');
+  background-size: cover;
+}
+
+.workout-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.workout-card {
+  width: calc(50% - 20px); /* Two columns with a gap */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.workout-avatar {
+  width: 40px;
+  height: 40px;
+  background-image: url('https://media.istockphoto.com/id/2005282047/vector/man-fitness-coach-cartoon-character-with-stopwatch-demonstrating-strong-arm-biceps-isolated.jpg?s=612x612&w=0&k=20&c=wF4rdSJ8kFonE5O5WYioFl71aMCjjOatne5aCrId7CU=');
+  background-size: cover;
+}
+
+mat-card-title, mat-card-subtitle {
+  font-family: 'Roboto', sans-serif;
+}
+
+mat-card-content p {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+}

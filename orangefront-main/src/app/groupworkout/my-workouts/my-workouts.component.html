@@ -1,0 +1,19 @@
+<div class="container">
+    <h2> Instructor with ID {{instructor_id}} has the following Workouts</h2>
+  
+    <mat-card class="example-card" *ngFor="let workout of workouts">
+      <mat-card-header>
+        <mat-card-title><span>{{ workout.workout_name }}</span></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{ workout.description }}</p>
+        <p><strong>Duration:</strong> {{ workout.duration }} minutes</p>
+        <p><strong>Capacity:</strong> {{ workout.capacity }} participants</p>
+        
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-fab extended color="warn" (click)="deleteWorkout(workout.workout_id)"> <mat-icon>delete</mat-icon> Delete</button>
+        <button mat-fab extended color="blue" (click)="editWorkout(workout.workout_id)"> <mat-icon>edit</mat-icon> Edit</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>

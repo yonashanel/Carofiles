@@ -1,0 +1,23 @@
+<p>edit-member {{member_id}} works!</p>
+@if (member) {
+<form #formEditMember="ngForm">
+<div>
+   member_id: <span>{{member.member_id}}</span>
+</div>
+<div>
+   Name: <input type="text" [(ngModel)]="member.name" name="name"> 
+</div>
+<div>
+   Email <input type="text" [(ngModel)]="member.email" name="email">
+</div>
+<div>
+   Password <input type="text" [(ngModel)]="member.password_hash" name="password_hash">
+</div>
+</form>
+@if (formEditMember.valid) {
+<button (click)="updateMember()">Update</button>
+}
+} @else {
+   Loading....
+}
+

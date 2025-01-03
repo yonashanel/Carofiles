@@ -1,0 +1,22 @@
+/* Style for the toolbar */
+mat-toolbar {
+  background-color: #ff5722;
+  color: white;
+  padding: 10px 20px;
+}
+
+
+/* Style for the centered title */
+mat-toolbar .title {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+
+
+
+
+

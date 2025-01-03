@@ -1,0 +1,26 @@
+<div class="add-workout-container">
+    <h1>Add Workout</h1>
+    <form [formGroup]="workoutFormGroup">
+      <mat-form-field>
+          <mat-label>Workout name </mat-label>
+          <input matInput type="text" [formControl]="workout_name">
+      </mat-form-field><br />
+      <mat-form-field>
+          <mat-label>Instructor ID</mat-label>
+          <input matInput type="text" [formControl]="instructor_id">
+      </mat-form-field><br />
+      <mat-form-field appearance="fill">
+        <mat-label>Description</mat-label>
+        <input matInput type="text" [formControl]="description">
+    </mat-form-field><br />
+      <mat-form-field appearance="fill">
+          <mat-label>Duration</mat-label>
+          <input matInput type="text" [formControl]="duration">
+      </mat-form-field><br />
+      <mat-form-field appearance="fill">
+          <mat-label>Capacity</mat-label>
+          <input matInput type="text" [formControl]="capacity">
+      </mat-form-field><br />
+      <button mat-raised-button color ="primary" type="submit" [disabled]="!this.workoutFormGroup.valid" (click)="addWorkout()">Add Workout </button>
+  </form>
+  </div>

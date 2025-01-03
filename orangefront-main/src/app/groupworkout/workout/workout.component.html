@@ -1,0 +1,18 @@
+<div class="workout-container">
+  <mat-card class="workout-card">
+    <mat-card-header>
+      <div mat-card-avatar class="workout-avatar"></div>
+      <mat-card-title>{{ workout.workout_name }}</mat-card-title>
+      <mat-card-subtitle>Instructor ID: {{ workout.instructor_id }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p><strong>Duration:</strong> {{ workout.duration }} minutes</p>
+      <p><strong>Capacity:</strong> {{ workout.capacity }} participants</p>
+      <p>{{ workout.description }}</p>
+    </mat-card-content>
+	<mat-card-actions>
+	  <button mat-fab extended color="warn" (click)="deleteWorkout()"> <mat-icon>delete</mat-icon> Delete</button>
+	  <button mat-fab extended color="blue" (click)="editWorkout(workout.workout_id)"> <mat-icon>edit</mat-icon> Edit</button>
+	</mat-card-actions>
+  </mat-card>
+</div>

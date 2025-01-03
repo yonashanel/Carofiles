@@ -1,0 +1,54 @@
+<div class="about-container">
+    <h1 mat-heading class="title">About Our Fitness Booking System</h1>
+  
+    <mat-card class="intro-card" fxLayout="column" fxLayoutAlign="center center">
+      <mat-card-header>
+        <mat-card-title class="header-text">Welcome to the Fitness Revolution!</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p class="intro-text">
+          We provide an easy way to manage your fitness classes and bookings, so you can focus on reaching your fitness goals. 
+          Whether you're a member looking to book your next workout or an instructor managing your class schedule, our system 
+          makes it simple and intuitive.
+        </p>
+        <mat-divider></mat-divider>
+      </mat-card-content>
+    </mat-card>
+  
+    <mat-card class="features-card">
+      <mat-card-header>
+        <mat-card-title>Exciting Features</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-list>
+          <mat-list-item><mat-icon>check_circle</mat-icon><strong>Book Workouts:</strong> Browse and book your favorite fitness classes, whether it's yoga, pilates, spinning, or more!</mat-list-item>
+          <mat-list-item><mat-icon>check_circle</mat-icon><strong>Manage Classes:</strong> Instructors can easily manage and update their class schedules and availability.</mat-list-item>
+          <mat-list-item><mat-icon>check_circle</mat-icon><strong>User Profile:</strong> Members can view their booking history and upcoming classes in one place.</mat-list-item>
+          <mat-list-item><mat-icon>check_circle</mat-icon><strong>Real-Time Updates:</strong> Receive notifications for any changes to your bookings or classes.</mat-list-item>
+        </mat-list>
+      </mat-card-content>
+    </mat-card>
+  
+    <mat-card class="team-card">
+      <mat-card-header>
+        <mat-card-title>Meet Our Team</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p class="team-description">
+          Our team is dedicated to providing you with the best fitness experience. With certified trainers and a user-friendly 
+          booking system, we are here to support you on your fitness journey.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  
+    <mat-card class="contact-card">
+      <mat-card-header>
+        <mat-card-title>Contact Us</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>If you have any questions or need assistance, feel free to reach out to our support team at <a href="mailto:support@fitnessbooking.com">supportfitnessbooking.com</a>.</p>
+        <mat-button color ="accent" [routerLink]="['/home']" class="contact-btn">Go to Support</mat-button>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

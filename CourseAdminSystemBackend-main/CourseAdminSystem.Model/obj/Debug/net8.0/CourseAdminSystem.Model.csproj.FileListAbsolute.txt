@@ -35,3 +35,16 @@ c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBack
 c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\refint\CourseAdminSystem.Model.dll
 c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\CourseAdminSystem.Model.pdb
 c:\Users\Carov\Downloads\CourseAdminSystemBackend-main (1)\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\ref\CourseAdminSystem.Model.dll
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\bin\Debug\net8.0\CourseAdminSystem.Model.deps.json
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\bin\Debug\net8.0\CourseAdminSystem.Model.dll
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\bin\Debug\net8.0\CourseAdminSystem.Model.pdb
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\CourseAdminSystem.Model.csproj.AssemblyReference.cache
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\CourseAdminSystem.Model.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\CourseAdminSystem.Model.AssemblyInfoInputs.cache
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\CourseAdminSystem.Model.AssemblyInfo.cs
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\CourseAdminSystem.Model.csproj.CoreCompileInputs.cache
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\CourseAdminSystem.Model.sourcelink.json
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\CourseAdminSystem.Model.dll
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\refint\CourseAdminSystem.Model.dll
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\CourseAdminSystem.Model.pdb
+c:\Users\wwwkr\fullstack\orange\Carofiles\CourseAdminSystemBackend-main\CourseAdminSystem.Model\obj\Debug\net8.0\ref\CourseAdminSystem.Model.dll

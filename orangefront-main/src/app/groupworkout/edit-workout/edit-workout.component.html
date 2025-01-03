@@ -1,0 +1,29 @@
+<p>edit-workout {{workout_id}} works!</p>
+@if (workout) {
+<form #formEditWorkout="ngForm">
+<div>
+   Workout_id: <span>{{workout.workout_id}}</span>
+</div>
+
+<div>
+   Workout name: <input type="text" [(ngModel)]="workout.workout_name" name="workout_name">
+</div>
+<div>
+   instructor_id <input type="text" [(ngModel)]="workout.instructor_id" name="instructor_id">
+</div>
+<div>
+   Description <input type="text" [(ngModel)]="workout.description" name="description">
+</div>
+<div>
+   Duration <input type="text" [(ngModel)]="workout.duration" name="duration">
+</div>
+<div>
+   Capacity <input type="text" [(ngModel)]="workout.capacity" name="capacity">
+</div>
+</form>
+@if (formEditWorkout.valid) {
+<button (click)="updateWorkout()">Update</button>
+}
+} @else {
+   Loading....
+}

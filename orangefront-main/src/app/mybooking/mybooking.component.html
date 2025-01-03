@@ -1,0 +1,22 @@
+<p>mybooking works!</p>
+<div class="mybooking-container">
+    <h1>My Bookings</h1>
+  
+    <!-- Booking list -->
+    <div *ngFor="let booking of bookings" class="booking-card">
+      <h2>{{ booking.workout_name }}</h2>
+      <p>Description: {{ booking.discription }}</p>
+      <p>Instructor ID: {{ booking.instructor_id }}</p>
+      <p>Capacity: {{ booking.capacity }}</p>
+      <p>Duration: {{ booking.duration }}</p>
+      <button>Edit</button>
+      <button>Cancel</button>
+    </div>
+  
+    <!-- Placeholder for adding a booking -->
+    <div class="add-booking">
+      <h2>Add New Booking</h2>
+      <button>Add Booking</button>
+    </div>
+  </div>
+  

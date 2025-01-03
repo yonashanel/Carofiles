@@ -1,0 +1,85 @@
+/* Style for the toolbar */
+mat-toolbar {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .fitness-hero {
+    background-color: #f1f1f1;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    color: #ff5722;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  
+  .hero-content button {
+    background-color: #ff5722;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+ 
+  
+  /* Features Section in center */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  /*Centers the featurecards*/
+  .feature-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+  }
+  /*The icon color*/
+  .feature-icon {
+    color: #ff5722;
+  }
+  
+  /*Header for the feaures*/
+  .feature-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+/*Text */
+  .feature-card p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
